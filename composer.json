@@ -1,11 +1,11 @@
 {
-    "name": "hsobral/zend_matrixcode",
+    "name": "letsbonus/zend_matrixcode",
     "description": "Zend Matrixcode Package for composer",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Henrique Sobral Gomes",
-            "email": "henrique@devideia.com.br"
+            "name": "LetsBonus IT Dept.",
+            "email": "github@letsbonus.com"
         }
     ],
     "extra": {
@@ -13,5 +13,10 @@
             "dev-master": "1.0-dev"
         }
     },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "src/"
+        }
+    }
     "require": {"zendframework/zendframework1": "1.12.*@dev"}
 }
