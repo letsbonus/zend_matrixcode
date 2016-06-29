@@ -17,6 +17,6 @@
         "psr-0": {
             "Zend_": "src/"
         }
-    }
+    },
     "require": {"zendframework/zendframework1": "1.12.*@dev"}
 }
