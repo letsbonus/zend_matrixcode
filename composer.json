@@ -18,5 +18,8 @@
             "Zend_": "library/"
         }
     },
+    "include-path": [
+        "library/"
+    ],
     "require": {"zendframework/zendframework1": "1.12.*@dev"}
 }
